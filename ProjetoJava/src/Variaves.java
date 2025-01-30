@@ -9,6 +9,8 @@ public class Variaves {
         long cpf = 1234567889;
         float pi = 3.14F;
         double salario = 2.500;
+        char sexo ='M';
+        boolean doadorOrgao = false;
 
         System.out.println("Olá " + nome);
         System.out.println("Sua idade é : " + idade);
@@ -16,6 +18,8 @@ public class Variaves {
         System.out.println("Seu endereço é : " + cep);
         System.out.println("Seu CPF é : " + cpf);
         System.out.println("Teste de PI: " + pi);
+        System.out.println("Doador de Orgão " + doadorOrgao);
+        System.out.println("Sexo : " + sexo);
         System.out.println("Seu salário atual é : " + salario);
 
     }
