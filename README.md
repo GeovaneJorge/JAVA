@@ -3,7 +3,7 @@
 Repositorio para as aulas de JAVA.
 
 
-Desafio 
+Desafio (1)
 
 Uma biblioteca está implementando um sistema automatizado para liberar o acesso à área de livros raros. O sistema deve permitir a entrada apenas para visitantes autorizados e com idade mínima de 18 anos. Para isso, é necessário utilizar operadores lógicos, estruturas condicionais (if, else, else if) e conceitos básicos como tipos primitivos e palavras-chave. Desenvolva um programa que verifique se o visitante pode acessar a sala especial.
 
@@ -30,5 +30,6 @@ false
 25	Acesso negado
 true
 16	Idade insuficiente
+
 
 
