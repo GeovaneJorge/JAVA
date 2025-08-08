@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Acesso {
+public class AccessControl {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -15,8 +15,8 @@ public class Acesso {
         } else if (hasPermission == false && age >=25 ) {
             System.out.println("Acesso negado");
             
-        } else if (hasPermission == true && age < 18) {
-            System.out.println("Acesso insuficiente");
+        } else if (hasPermission == true && age >= 16) {
+            System.out.println("Idade insuficiente");
         }
 
         scanner.close();
